@@ -140,7 +140,7 @@
 			<key>name</key>
 			<string>Red</string>
 			<key>scope</key>
-			<string>keyword.operator.word.new.js, keyword.control.flow.js, keyword.control.conditional.js, keyword.control.trycatch.js, keyword.operator.logical.js, keyword.operator.ternary.js, keyword.operator.js, keyword.operator.relational.js, keyword.operator.assignment.js</string>
+			<string>keyword.operator.word.new.js, keyword.control.flow.js, keyword.control.conditional.js, keyword.other.js, keyword.control.trycatch.js, keyword.operator.logical.js, keyword.operator.ternary.js, keyword.operator.js, keyword.operator.relational.js, keyword.operator.assignment.js, keyword.operator.comparison.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -152,7 +152,7 @@
 			<key>name</key>
 			<string>Orange</string>
 			<key>scope</key>
-			<string>variable.type.js, support.class.error.js, entity.name.function.js, variable.function.js, support.class.builtin.js, support.function.console.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js</string>
+			<string>variable.type.js, support.class.error.js, entity.name.function.js, support.function.js, entity.name.class.js, entity.other.inherited-class.js, support.function.dom.js, variable.function.js, support.class.builtin.js, support.function.console.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -164,7 +164,7 @@
 			<key>name</key>
 			<string>Blue</string>
 			<key>scope</key>
-			<string>storage.type.function.arrow.js, storage.type.function.js, storage.type.js, support.type.object.console.js, support.class.builtin.js, source.js.embedded.expression</string>
+			<string>storage.type.function.arrow.js, storage.type.class.js, storage.type.function.js, storage.type.js, support.type.object.console.js, support.class.builtin.js, source.js.embedded.expression, support.class.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -188,7 +188,7 @@
 			<key>name</key>
 			<string>Light blue</string>
 			<key>scope</key>
-			<string>constant.numeric.js, constant.language.null.js, constant.language.boolean.false.js, constant.language.boolean.true.js</string>
+			<string>constant.numeric.js, constant.language.null.js, constant.language.boolean.false.js, constant.language.boolean.true.js, string.regexp.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -200,7 +200,7 @@
 			<key>name</key>
 			<string>Grey</string>
 			<key>scope</key>
-			<string>punctuation.section.block.js, punctuation.section.group.js, punctuation.accessor.js, punctuation.terminator.statement.js, punctuation.definition.string.begin.js, punctuation.definition.string.end.js, punctuation.section.brackets.js</string>
+			<string>punctuation.section.block.js, punctuation.section.group.js, punctuation.accessor.js, punctuation.terminator.statement.js, punctuation.definition.string.begin.js, punctuation.definition.string.end.js, punctuation.section.brackets.js, punctuation.section.group.begin.js, punctuation.section.group.end.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -224,7 +224,7 @@
 			<key>name</key>
 			<string>Yellow</string>
 			<key>scope</key>
-			<string>variable.language.this.js</string>
+			<string>variable.language.this.js, storage.modifier.extends.js, meta.function.declaration.js, storage.type.accessor.js, variable.language.super.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
